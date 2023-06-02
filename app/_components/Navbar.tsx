@@ -9,10 +9,11 @@ export default function Navbar() {
         <Link href='/contact'>Contact</Link>
         <Link href='/goals'>Your goals</Link>
         <div className={styles.dropdown}>
-          <button className={styles.dropbtn}>Dropdown</button>
+          <button className={styles.dropbtn}>Chapters</button>
           <div className={styles['dropdown-content']}>
             <Link href='/route-handlers'>Route handlers</Link>
-            <Link href='/fetch'>Fetch</Link>
+            <Link href='/fetch-async'>Fetch Async</Link>
+            <Link href='/fetch-await'>Fetch Await</Link>
           </div>
         </div>
       </ul>

@@ -7,8 +7,6 @@ export async function GET(request: NextRequest) {
   const res = (await fetch('https://api.publicapis.org/entries'));
   const body = await res.json();
 
-  console.log(body);
-
   if (id)
     body.testId = id;
 
