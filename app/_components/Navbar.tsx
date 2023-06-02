@@ -14,6 +14,7 @@ export default function Navbar() {
             <Link href='/route-handlers'>Route handlers</Link>
             <Link href='/fetch-async'>Fetch Async</Link>
             <Link href='/fetch-await'>Fetch Await</Link>
+            <Link href='/fetch-parallel'>Fetch Parallel</Link>
           </div>
         </div>
       </ul>
