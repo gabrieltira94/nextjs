@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from './styles.module.css';
 
 export default function Navbar() {
   return (
@@ -7,7 +8,13 @@ export default function Navbar() {
         <Link href='/'>Home</Link>
         <Link href='/contact'>Contact</Link>
         <Link href='/goals'>Your goals</Link>
-        <Link href='/route-handlers'>Route handlers</Link>
+        <div className={styles.dropdown}>
+          <button className={styles.dropbtn}>Dropdown</button>
+          <div className={styles['dropdown-content']}>
+            <Link href='/route-handlers'>Route handlers</Link>
+            <Link href='/fetch'>Fetch</Link>
+          </div>
+        </div>
       </ul>
     </nav>
   );
