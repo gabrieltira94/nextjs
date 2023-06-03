@@ -15,6 +15,8 @@ export default function Home() {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <h3>Routing</h3>
           <Link href='/route-handlers'>Route handlers</Link>
+          <Link href='/error-handling'>Error handling</Link>
+          <Link href='/parallel-routes'>Parallel routes</Link>
         </div>
 
 
