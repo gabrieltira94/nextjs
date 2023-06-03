@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav style={{ marginTop: '1rem' }}>
       <ul style={{ display: 'flex', justifyContent: 'space-evenly' }}>
         <Link href='/'>Home</Link>
         <Link href='/contact'>Contact</Link>
