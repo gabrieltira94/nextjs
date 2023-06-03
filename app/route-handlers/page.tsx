@@ -1,6 +1,5 @@
 
 export default function Page(props: any) {
-  console.log(props);
 
   return <div>
     <h2>We are in route-handlers Page</h2>

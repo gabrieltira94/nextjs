@@ -3,7 +3,6 @@ async function getData() {
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
-  console.log(res);
   // Recommendation: handle errors
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
