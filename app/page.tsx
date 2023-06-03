@@ -39,9 +39,16 @@ export default function Home() {
           <Link href='/images'>Images</Link>
           <Link href='/lazy-loading'>Lazy-loading</Link>
         </div>
-
-
       </div>
+
+      <div style={{ display: 'flex', justifyContent: 'space-around', margin: '2rem 0', padding: '1rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <h3>File Conventions</h3>
+          <Link href='/file-conventions'>File Conventions</Link>
+          <Link href='/file-conventions/error'>Error</Link>
+        </div>
+      </div>
+
     </div>
   );
 }
