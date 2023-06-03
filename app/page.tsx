@@ -47,6 +47,12 @@ export default function Home() {
           <Link href='/file-conventions'>File Conventions</Link>
           <Link href='/file-conventions/error'>Error</Link>
         </div>
+
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <h3>Functions</h3>
+          <Link href='/cookies'>Cookies</Link>
+          <Link href='/headers'>Headers</Link>
+        </div>
       </div>
 
     </div>
